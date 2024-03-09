@@ -89,7 +89,7 @@
             // 
             this.firstNameInsTextBox.Location = new System.Drawing.Point(177, 310);
             this.firstNameInsTextBox.Name = "firstNameInsTextBox";
-            this.firstNameInsTextBox.Size = new System.Drawing.Size(100, 21);
+            this.firstNameInsTextBox.Size = new System.Drawing.Size(147, 21);
             this.firstNameInsTextBox.TabIndex = 5;
             // 
             // lastNameInsLabel
@@ -114,14 +114,14 @@
             // 
             this.lastNameInsTextBox.Location = new System.Drawing.Point(177, 350);
             this.lastNameInsTextBox.Name = "lastNameInsTextBox";
-            this.lastNameInsTextBox.Size = new System.Drawing.Size(100, 21);
+            this.lastNameInsTextBox.Size = new System.Drawing.Size(147, 21);
             this.lastNameInsTextBox.TabIndex = 9;
             // 
             // emailAddressInsTextBox
             // 
             this.emailAddressInsTextBox.Location = new System.Drawing.Point(177, 391);
             this.emailAddressInsTextBox.Name = "emailAddressInsTextBox";
-            this.emailAddressInsTextBox.Size = new System.Drawing.Size(100, 21);
+            this.emailAddressInsTextBox.Size = new System.Drawing.Size(147, 21);
             this.emailAddressInsTextBox.TabIndex = 10;
             // 
             // insertDataButton

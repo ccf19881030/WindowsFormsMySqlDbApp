@@ -45,5 +45,23 @@ namespace WindowsFormsMySqlDbApp
             // 更新绑定内容，将people查询结果展示在peopleFoundListBox中
             UpdateBinding();
         }
+
+        /// <summary>
+        /// insert按钮响应处理函数
+        /// 功能：接收用户输入，往people数据表中插入记录
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void insertDataButton_Click(object sender, EventArgs e)
+        {
+            MySQLDataAccess dataAccess = new MySQLDataAccess();
+            // 插入一条数据记录到people表中
+            dataAccess.InsertPerson(firstNameInsTextBox.Text, lastNameInsTextBox.Text, emailAddressInsTextBox.Text);
+
+            // 插入数据之后将界面中的记录数据清空
+            firstNameInsTextBox.Text = "";
+            lastNameInsTextBox.Text = "";
+            emailAddressInsTextBox.Text = "";
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace WindowsFormsMySqlDbApp
         {
             get
             {
+                // "Tim Corey (test@test.com)"
                 return $" {FirstName} {LastName} ({EmailAddress})";
             }
         }
